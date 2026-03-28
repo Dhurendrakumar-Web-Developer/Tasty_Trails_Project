@@ -324,38 +324,38 @@ header {
     width: 40vh;
 }
 
-.effort-less{
+.effort-less {
     /* border: 2px solid black; */
     display: flex;
     justify-content: space-between;
     padding: 20px 10px;
 }
 
-.effort-less .effort-image{
+.effort-less .effort-image {
     /* border: 2px solid red; */
     padding: 20px 10px;
     margin: 15px 0;
 }
 
-.effort-less .effort-image img{
+.effort-less .effort-image img {
     width: 100vh;
     padding: 4rem 0;
 }
 
-.effort-less .effort-text{
+.effort-less .effort-text {
     /* border: 2px solid green; */
     padding: 20px 10px;
     margin: 15px 0;
 }
 
-.effort-less .effort-text h1{
+.effort-less .effort-text h1 {
     font-size: 2.7rem;
     font-weight: 700;
     font-family: 'Times New Roman', Times, serif;
     padding: 10px;
 }
 
-.effort-less .effort-text p{
+.effort-less .effort-text p {
     font-size: 18px;
     padding: 10px 10px 25px 10px;
     color: rgb(41, 41, 41);
@@ -363,7 +363,7 @@ header {
     font-family: 'Times New Roman', Times, serif;
 }
 
-.effort-less .effort-text .contact-btn{
+.effort-less .effort-text .contact-btn {
     text-decoration: none;
     color: rgb(12, 12, 12);
     font-size: 18px;
@@ -375,12 +375,12 @@ header {
     transition: 0.5s ease-in-out;
 }
 
-.effort-less .effort-text .contact-btn:hover{
+.effort-less .effort-text .contact-btn:hover {
     border: 2px solid rgb(255, 153, 0);
     background-color: rgb(255, 153, 0);
 }
 
-.effort-less .effort-text .check-btn{
+.effort-less .effort-text .check-btn {
     text-decoration: none;
     color: rgb(12, 12, 12);
     font-size: 18px;
@@ -392,16 +392,16 @@ header {
     transition: 0.5s ease-in-out;
 }
 
-.effort-less .effort-text .check-btn:hover{
+.effort-less .effort-text .check-btn:hover {
     border: 2px solid rgb(255, 153, 0);
     background-color: rgb(255, 153, 0);
 }
 
-.effort-less .effort-text .online{
+.effort-less .effort-text .online {
     padding: 2.8rem 10px;
 }
 
-.effort-less .effort-text .online .card-btn{
+.effort-less .effort-text .online .card-btn {
     /* border: 2px solid black; */
     text-decoration: none;
     color: black;
@@ -413,7 +413,7 @@ header {
     box-shadow: 2px 2px 10px 3px rgb(66, 66, 66);
 }
 
-.effort-less .effort-text .online .card-btn i{
+.effort-less .effort-text .online .card-btn i {
     border: 2px solid rgb(255, 153, 0);
     padding: 8px 23px 8px 8px;
     border-radius: 50px;
@@ -422,11 +422,11 @@ header {
     color: black;
 }
 
-.effort-less .effort-text .feedback{
+.effort-less .effort-text .feedback {
     padding: 0 10px;
 }
 
-.effort-less .effort-text .feedback .card-btn{
+.effort-less .effort-text .feedback .card-btn {
     /* border: 2px solid black; */
     text-decoration: none;
     color: black;
@@ -438,7 +438,7 @@ header {
     box-shadow: 2px 2px 10px 3px rgb(66, 66, 66);
 }
 
-.effort-less .effort-text .feedback .card-btn i{
+.effort-less .effort-text .feedback .card-btn i {
     border: 2px solid rgb(255, 153, 0);
     padding: 8px 23px 8px 8px;
     border-radius: 50px;
@@ -447,5 +447,191 @@ header {
     color: black;
 }
 
+.head-line {
+    /* border: 2px solid black; */
+    text-align: center;
+    padding: 10px;
+}
+
+.head-line h1 {
+    font-size: 2.3rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    padding: 10px;
+}
+
+.head-line p {
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0 0 20px 0;
+}
+
+.dishes-list {
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.dishes-list .left-dishe {
+    /* border: 2px solid green; */
+    border-radius: 20px;
+    width: 50vh;
+    background-color: rgb(250, 202, 45);
+}
+
+.dishes-list .left-dishe .dishes {
+    /* border: 2px solid black; */
+    display: flex;
+    /* padding: 5px; */
+    margin: 15px;
+    border-radius: 50px;
+    transition: 0.5s ease-in-out;
+    box-shadow: 2px 2px 5px 2px rgb(59, 59, 59);
+    background-color: white;
+}
+
+.dishes-list .left-dishe .dishes:hover {
+    background-color: rgb(255, 153, 0);
+}
+
+.dishes-list .left-dishe .dishes img {
+    width: 3rem;
+    border-radius: 50px;
+    margin: 5px;
+}
+
+.dishes-list .left-dishe .dishes a {
+    text-decoration: none;
+    text-align: center;
+    padding: 10px 4rem;
+    color: black;
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.dishes-list .left-dishe .satads {
+    /* border: 2px solid black; */
+    display: flex;
+    /* padding: 5px; */
+    margin: 15px;
+    border-radius: 50px;
+    transition: 0.5s ease-in-out;
+    box-shadow: 2px 2px 5px 2px rgb(59, 59, 59);
+    background-color: white;
+}
+
+.dishes-list .left-dishe .satads:hover {
+    background-color: rgb(255, 153, 0);
+}
+
+.dishes-list .left-dishe .satads img {
+    width: 3rem;
+    border-radius: 50px;
+    margin: 5px;
+}
+
+.dishes-list .left-dishe .satads a {
+    text-decoration: none;
+    text-align: center;
+    padding: 10px 4rem;
+    color: black;
+    font-weight: 800;
+    font-size: 20px;
+}
 
 
+.dishes-list .left-dishe .appetizers {
+    /* border: 2px solid black; */
+    display: flex;
+    /* padding: 5px; */
+    margin: 15px;
+    border-radius: 50px;
+    transition: 0.5s ease-in-out;
+    box-shadow: 2px 2px 5px 2px rgb(59, 59, 59);
+    background-color: white;
+}
+
+.dishes-list .left-dishe .appetizers:hover {
+    background-color: rgb(255, 153, 0);
+}
+
+.dishes-list .left-dishe .appetizers img {
+    width: 3rem;
+    border-radius: 50px;
+    margin: 5px;
+}
+
+.dishes-list .left-dishe .appetizers a {
+    text-decoration: none;
+    text-align: center;
+    padding: 10px 4rem;
+    color: black;
+    font-weight: 800;
+    font-size: 20px;
+}
+
+
+.dishes-list .left-dishe .soups {
+    /* border: 2px solid black; */
+    display: flex;
+    /* padding: 5px; */
+    margin: 15px;
+    border-radius: 50px;
+    transition: 0.5s ease-in-out;
+    box-shadow: 2px 2px 5px 2px rgb(59, 59, 59);
+    background-color: white;
+}
+
+.dishes-list .left-dishe .soups:hover {
+    background-color: rgb(255, 153, 0);
+}
+
+.dishes-list .left-dishe .soups img {
+    width: 3rem;
+    border-radius: 50px;
+    margin: 5px;
+}
+
+.dishes-list .left-dishe .soups a {
+    text-decoration: none;
+    text-align: center;
+    padding: 10px 4rem;
+    color: black;
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.dishes-list .left-dishe .desserts {
+    /* border: 2px solid black; */
+    display: flex;
+    /* padding: 5px; */
+    margin: 15px;
+    border-radius: 50px;
+    transition: 0.5s ease-in-out;
+    box-shadow: 2px 2px 5px 2px rgb(59, 59, 59);
+    background-color: white;
+}
+
+.dishes-list .left-dishe .desserts:hover {
+    background-color: rgb(255, 153, 0);
+}
+
+.dishes-list .left-dishe .desserts img {
+    width: 3rem;
+    border-radius: 50px;
+    margin: 5px;
+}
+
+.dishes-list .left-dishe .desserts a {
+    text-decoration: none;
+    text-align: center;
+    padding: 10px 4rem;
+    color: black;
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.dishes-list .right-dishe {
+    border: 2px solid red;
+}
